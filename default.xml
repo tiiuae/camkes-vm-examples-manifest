@@ -13,7 +13,7 @@
   <remote name="zeromq" fetch="https://github.com/zeromq"/>
   
   <!-- Use our seL4 forks where needed -->
-  <remote name="seL4" fetch="https://github.com/tiiuae"/>
+  <remote name="seL4" fetch="ssh://git@github.com/tiiuae/"/>
   <remote name="seL4_vanilla" fetch="https://github.com/seL4"/>
   
   
@@ -37,7 +37,7 @@
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
   
-  <project remote="seL4" name="capdl.git" path="projects/capdl" revision="master"/>
+  <project remote="seL4" name="capdl.git" path="projects/capdl" revision="rpi4"/>
   
   <project remote="seL4" name="projects_libs.git" path="projects/projects_libs" revision="master"/>
   
@@ -49,9 +49,9 @@
   
   <project remote="seL4" name="seL4.git" path="kernel" revision="rpi4"/>
   
-  <project remote="seL4" name="seL4_libs.git" path="projects/seL4_libs" revision="master"/>
+  <project remote="seL4" name="seL4_libs.git" path="projects/seL4_libs" revision="rpi4"/>
     
-  <project remote="seL4" name="seL4_tools.git" path="tools/seL4" revision="master">
+  <project remote="seL4" name="seL4_tools.git" path="tools/seL4" revision="rpi4">
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
   </project>
