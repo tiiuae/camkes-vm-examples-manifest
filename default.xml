@@ -33,7 +33,7 @@
   <!-- Stuff that varies -->
   
   
-  <project remote="seL4" name="camkes-tool.git" path="projects/camkes-tool" revision="master">
+  <project remote="seL4" name="camkes-tool.git" path="projects/camkes-tool" revision="rpi4">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
   
